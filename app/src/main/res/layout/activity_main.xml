@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.guizhiyuan.animationtest.MainActivity">
+
+    <Button
+        android:id="@+id/mScaleAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ScaleAnimation"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/mAlphaAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlphaAnimation"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/mRotateAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RotateAnimation"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/mTranslateAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TranslateAnimation"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/mAnimationSet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AnimationSet"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/mAnimationLis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AnimationLis"
+        android:textSize="20dp" />
+</LinearLayout>
